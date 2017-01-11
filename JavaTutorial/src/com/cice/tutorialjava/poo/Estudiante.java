@@ -9,6 +9,7 @@ public class Estudiante extends Persona{
 		super(nombre, edad);
 		this.nie=nie;
 		this.cursos=cursos;
+		int x;
 	}
 	
 	public int getNumeroCursos(){
