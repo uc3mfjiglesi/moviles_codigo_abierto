@@ -41,6 +41,9 @@ public class SetTest {
 		while(it2.hasNext()){
 			System.out.println(it2.next());
 		}
+		System.out.println(new String("Luis").hashCode());
+		System.out.println(new String("Luis").hashCode());
+		System.out.println(new String("Manuel").hashCode());
 	}
 
 }

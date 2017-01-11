@@ -54,7 +54,21 @@ public class Racional implements Comparable{
 	@Override
 	public boolean equals(Object obj) {
 		// TODO Auto-generated method stub
-		return super.equals(obj);
+		if(!(obj instanceof Racional))
+			return false;
+		Racional r=(Racional)obj;
+		return (numerador*r.denominador==denominador*r.numerador)?true:false;
+	}
+
+	@Override
+	public int hashCode() {
+		int result = 17;
+
+	    // Include a hash for each field.
+
+	    result = 31 * result + numerador;                                // 8 bits  » 32-bit 
+	    result = 31 * result + denominador;                               // 16 bits » 32-bit
+	    return result;
 	}
 
 	
