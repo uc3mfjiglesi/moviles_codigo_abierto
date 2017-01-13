@@ -1,6 +1,6 @@
 package com.cice.tutorialjava.poo;
 
-public class Persona {
+public class Persona{
 	//Un miembro de la una clase es un atributo o un metodo
 	//Los atributos definen el estado de un objeto
 	private String nombre;
@@ -45,6 +45,8 @@ public class Persona {
 	public void setDomicilio(String domicilio) {
 		this.domicilio = domicilio;
 	}
+
+	
 	
 	
 

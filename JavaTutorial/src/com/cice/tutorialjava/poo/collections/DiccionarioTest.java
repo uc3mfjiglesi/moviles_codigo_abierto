@@ -8,7 +8,7 @@ public class DiccionarioTest {
 		// TODO Auto-generated method stub
 		try {
 			Diccionario d=new Diccionario("palabras.txt");
-			
+			d.print();
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
